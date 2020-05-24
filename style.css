@@ -1,6 +1,7 @@
 body{
    background-color: blue;
 font-size: 16px;
+font-family:  'Karla', sans-serif;
 }
 .container{
     width: 1440px;
@@ -13,10 +14,22 @@ section{
     background-color: white;
     width: 70%;
     height: 300px;
-    text-align: center;
+    text-align: start;
     padding:20px 20px ;
-    margin: 100px 100px;
+    margin:auto ;
+    padding: 20px 50px;
 }
 h2{
-    color:cyan;
+    color:hsl(179, 62%, 43%);
+}
+h3{
+    color: hsl(71, 73%, 54%);
+}
+h4{
+    color:hsl(218, 22%, 67%);
+}
+.info{
+    background-color: hsl(179, 62%, 43%);
+    width: 35%;
+    margin:auto ;
 }
