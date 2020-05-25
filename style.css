@@ -1,58 +1,68 @@
-body{
-   background-color: blue;
-font-size: 16px;
-font-family:  'Karla', sans-serif;
+*{
+    box-sizing: border-box;
 }
-.container{
-    width: 1440px;
+body {
   
-    margin: auto ;
-    background: url(https://files.123freevectors.com/wp-content/original/164665-light-color-abstract-texture-background.jpg) no-repeat center center;
-    
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
 }
-section{
-    background-color: white;
-    width: 40%;
+.container {
+  max-width: 1440px;
+ margin: auto;
+    border: solid 3px blue;
    
-    text-align: start;
-    padding:20px 20px ;
-    margin:50px auto ;
-    padding: 20px 50px;
+   
 }
-.main-green{
-    color:hsl(179, 62%, 43%);
-}
-.bright-yellow{
-    color: hsl(71, 73%, 54%);
-}
-.grayish-blue{
-    color:hsl(218, 22%, 67%);
-}
-.white{
-    color: white;
-}
-.info{
-    background-color: hsl(179, 62%, 43%);
-    width: 37%;
-    display: inline-block;
-    padding: 20px 35px;
-    margin-bottom: 34px;
-    margin-left: 0;
-    margin-right: 0;
-    border: none;
-}
-.main-btn{
-    color: white;
-    background-color:  hsl(71, 73%, 54%);
-padding: 13px 10px;
-width: 100%;
-border-radius: 5px;
-border-style: none;
-margin-bottom: 13px;
+#main-header {
+  background-color: white;
+  width: 50%;
+ /* margin: 50px auto;*/
+  padding: 20px 50px;
+  border: solid 3px red;
 
 }
-.texto{
-    color: white;
-    line-height: 20px;
-    font-weight: 700;
+.main-green {
+  color: hsl(179, 62%, 43%);
+}
+.bright-yellow {
+  color: hsl(71, 73%, 54%);
+}
+.grayish-blue {
+  color: hsl(218, 22%, 67%);
+}
+.white {
+  color: white;
+}
+#info {
+    border: solid 3px green;
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  display: flex;
+  padding: 20px 35px;
+  margin-bottom: 34px;
+  margin-left: 0;
+  margin-right: 0;
+  border: none;
+ 
+}
+.info-items{
+    flex: 1;
+    border: 2px red solid;
+}
+.main-btn {
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  padding: 13px 10px;
+  width: 100%;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 13px;
+}
+.main-btn:hover{
+    background-color: red;
+}
+.texto {
+  color: white;
+  line-height: 20px;
+  font-weight: 400;
 }
