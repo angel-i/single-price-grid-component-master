@@ -12,24 +12,47 @@ font-family:  'Karla', sans-serif;
 }
 section{
     background-color: white;
-    width: 70%;
-    height: 300px;
+    width: 40%;
+   
     text-align: start;
     padding:20px 20px ;
-    margin:auto ;
+    margin:50px auto ;
     padding: 20px 50px;
 }
-h2{
+.main-green{
     color:hsl(179, 62%, 43%);
 }
-h3{
+.bright-yellow{
     color: hsl(71, 73%, 54%);
 }
-h4{
+.grayish-blue{
     color:hsl(218, 22%, 67%);
+}
+.white{
+    color: white;
 }
 .info{
     background-color: hsl(179, 62%, 43%);
-    width: 35%;
-    margin:auto ;
+    width: 37%;
+    display: inline-block;
+    padding: 20px 35px;
+    margin-bottom: 34px;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+}
+.main-btn{
+    color: white;
+    background-color:  hsl(71, 73%, 54%);
+padding: 13px 10px;
+width: 100%;
+border-radius: 5px;
+border-style: none;
+margin-bottom: 13px;
+
+}
+.texto{
+    color: white;
+    line-height: 20px;
+    font-weight: 700;
 }
