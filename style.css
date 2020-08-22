@@ -77,9 +77,16 @@ font-size: 30px;
     display:block;
     padding-left:10px ;
     padding-right: 10px;
+    margin-bottom: 10px;
   }
 .container{
-  width: 400px;
+  width: 356px;
+}
+#month{
+  position: absolute;
+  right:184px;
+  bottom: 273px;
+
 }
 
 
