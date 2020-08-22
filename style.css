@@ -72,20 +72,26 @@ body {
 font-size: 30px;
 }
 @media(max-width:500px){
- 
+  #main-header{
+  padding-left: 31px;
+  width: 96%;
+  padding-right: 19px;
+  }
   #info{
     display:block;
     padding-left:10px ;
     padding-right: 10px;
     margin-bottom: 10px;
+    width: 96%;
   }
 .container{
   width: 356px;
+  margin-left: 8px;
 }
 #month{
   position: absolute;
   right:184px;
-  bottom: 273px;
+  bottom: 291px;
 
 }
 
